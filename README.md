@@ -1,5 +1,13 @@
 # Tasks For FOSSCell Dev Team Inductions
 
+
+You MUST submit atleast one task. To submit, make a PR [here](https://github.com/FOSSCellNITCalicut/dev-inductions25/pulls). Ensure that you submit no later than 11:59PM IST, 8th January, 2026. No force pushes! 
+
+Tasks -
+1. [Task 1](#Task-1) - Open Source Web Development
+2. [Task 2](#Task-2) - Mobile app development
+3. [Task 3](#Task-3) - QT desktop app
+
 ## Task 1  
 
 ### Open Source Web Development Task  
@@ -63,3 +71,39 @@ Bonus (Optional but Impressive)
 - Kubernetes (later phase)
 
 
+## Task 2
+
+### Mobile app development
+
+At FOSSCell, we have faced shortage of developers interested in mobile platforms. Most just flock to web, even though phones are used much more than laptops. The entire native experience is lost on the browsers.
+
+There is a noticeable lack of free and open source apps that are used for document scanning. Create a multiplatform app, targeted at mobile platforms (MUST work on Android 15+), that can be used for converting pictures of document (like camscanner does) to PDFs.
+
+You can use [Flutter](https://flutter.dev/) or [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) or [Swift](https://github.com/swiftlang/swift-android-examples) or [Jetpack Compose](https://developer.android.com/compose). Bonus points are allocated in the order of compose > kotlin > swift > flutter.
+
+## Requirements
+1. App must be able to convert pictures of books/pages/documents into contrasted black and white/grayscale images, with proper edge detection.
+2. Ideal flow must be that user opens app, camera opens, and user can take a picture of document. Picture gets added to queue, and when user is done taking pictures, they get converted into a multi-page PDF.
+3. Additionally, attempt to implement live corner detection, so user can see the edges of the page while camera is open, as well as being able to edit PDF in place (manually adjusting borders, contrast, etc)
+
+
+
+## Task 3
+
+### QT desktop app
+
+Make a GUI frontend for [rclone](https://rclone.org/) using the [Qt6](https://www.qt.io/development/qt-framework/qt6) framework.
+
+## Requirements
+
+1. Use an open-source license (obviously :) )
+2. App must support basic operations such as -
+    - adding, removing, and editing remotes
+    - file manager view for managing files
+    - view associated metadata of each file
+3. Additionally, try implementing the following features -
+    - setting up cronjobs for periodic background sync operations
+    - support for mounting and unmounting files
+    - modifying rclone params
+
+We prefer if you write your code in C++, but Python is also acceptable
