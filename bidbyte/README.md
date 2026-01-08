@@ -9,8 +9,8 @@ It is designed with **scalability, correctness, and real-world architecture patt
 - **GitHub Repository:**  
   [https://github.com/<your-username>/bidbyte](https://github.com/dveloper-akash/bidbyte)
 
--**Live Website:**  
-https://bidbyte.vercel.app/
+- **Live Website:**  
+  https://bidbyte.vercel.app/
 
 ---
 
